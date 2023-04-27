@@ -4,7 +4,7 @@ WIP: A PoC of an Angular app which
 
 - has SSR
 - is localized (en-US, de-CH, fr-CH),
-- prerender-able
+- is prerender-able
 
 ## running
 
