@@ -12,6 +12,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
             "outputPath": "dist/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -103,7 +104,8 @@
           "options": {
             "outputPath": "dist/server",
             "main": "server.ts",
-            "tsConfig": "tsconfig.server.json"
+            "tsConfig": "tsconfig.server.json",
+            "localize": true
           },
           "configurations": {
             "production": {
@@ -135,7 +137,8 @@
           "builder": "@nguniversal/builders:prerender",
           "options": {
             "routes": [
-              "/"
+              "/dashboard",
+              "/heroes"
             ]
           },
           "configurations": {
@@ -149,6 +152,17 @@
             }
           },
           "defaultConfiguration": "production"
+        }
+      },
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "de-CH": {
+            "translation": "src/locale/messages.de-CH.xlf"
+          },
+          "fr-CH": {
+            "translation": "src/locale/messages.fr-CH.xlf"
+          }
         }
       }
     }
