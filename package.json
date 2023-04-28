@@ -16,6 +16,7 @@
     "serve:ssr:fr": "NGX_LANG=fr-CH node dist/server/fr-CH/main.js",
     "serve:ssr:it": "NGX_LANG=fr-CH node dist/server/it-CH/main.js",
     "build:ssr": "ng build && ng run angular.io-example:server",
+    "extract": "ng extract-i18n --output-path src/locale",
     "prerender": "ng run angular.io-example:prerender"
   },
   "private": true,
