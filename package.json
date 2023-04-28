@@ -11,9 +11,10 @@
     "test": "ng test",
     "e2e": "ng e2e",
     "dev:ssr": "ng run angular.io-example:serve-ssr",
-    "serve:ssr:en": "NGX_LANG=en-US node dist/server/en-US/main.js",
+    "serve:ssr:en": "NGX_LANG=en-US node dist/server/en-GB/main.js",
     "serve:ssr:de": "NGX_LANG=de-CH node dist/server/de-CH/main.js",
     "serve:ssr:fr": "NGX_LANG=fr-CH node dist/server/fr-CH/main.js",
+    "serve:ssr:it": "NGX_LANG=fr-CH node dist/server/it-CH/main.js",
     "build:ssr": "ng build && ng run angular.io-example:server",
     "prerender": "ng run angular.io-example:prerender"
   },

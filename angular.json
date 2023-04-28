@@ -155,12 +155,15 @@
         }
       },
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": "en-GB",
         "locales": {
           "de-CH": {
             "translation": "src/locale/messages.de-CH.xlf"
           },
           "fr-CH": {
+            "translation": "src/locale/messages.fr-CH.xlf"
+          },
+          "it-CH": {
             "translation": "src/locale/messages.fr-CH.xlf"
           }
         }
